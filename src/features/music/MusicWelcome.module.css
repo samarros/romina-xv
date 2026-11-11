@@ -1,0 +1,22 @@
+.dialog { padding: 0; border: 1px solid var(--color-gold); border-radius: 1.25rem; width: min(54rem, calc(100% - 1rem)); max-width: none; max-height: calc(100svh - 1rem); margin: auto; overflow: auto; color: var(--color-ink); background: var(--gradient-page); box-shadow: var(--shadow-card); }
+.dialog::backdrop { background: rgb(59 32 43 / 50%); }
+.card { display: grid; gap: 1rem; padding: clamp(1rem, 3vw, 2rem); }
+.portrait { position: relative; width: min(100%, 22rem); margin: auto; }
+.portrait picture { display: block; overflow: hidden; border-radius: 7rem 7rem 1rem 1rem; border: var(--border-fine); }
+.portrait img { width: 100%; height: clamp(7rem, 24svh, 14rem); object-fit: cover; object-position: 50% 18%; }
+.flowers { position: absolute; left: -1rem; bottom: -.5rem; width: 5.5rem; pointer-events: none; }
+.copy { text-align: center; }
+.crown { width: 2.4rem; margin: 0 auto .25rem; color: var(--color-gold); }
+.occasion { margin: 0; font-family: var(--font-display); color: var(--color-wine); font-size: 1.2rem; }
+.copy h2 { font: 400 clamp(2.5rem, 7vw, 4rem)/1.05 var(--font-script); color: var(--color-wine); margin: .4rem 0; }
+.date { color: var(--color-wine); font-family: var(--font-display); }
+.copy p { margin: .4rem 0 .7rem; }
+.copy p:not(.occasion):not(.date) { font-size: .85rem; }
+.primary, .silent { min-height: 2.75rem; width: 100%; border-radius: var(--radius-pill); font: 500 .8rem/1.4 var(--font-body); padding: .75rem 1rem; cursor: pointer; }
+.primary { border: 1px solid var(--color-wine); color: var(--color-ivory); background: var(--color-wine); box-shadow: var(--shadow-button); }
+.primary:hover { background: var(--color-action-hover); }
+.primary:disabled { cursor: wait; }
+.silent { margin-top: .35rem; border: 1px solid transparent; color: var(--color-wine); background: transparent; }
+.silent:hover { border-color: var(--color-gold); }
+.primary:focus-visible, .silent:focus-visible { outline: 3px solid var(--color-wine); outline-offset: 3px; }
+@media (min-width: 48rem) { .card { grid-template-columns: .85fr 1fr; gap: 2rem; align-items: center; } .portrait img { height: 26rem; } .flowers { width: 8rem; } }

@@ -1,0 +1,7 @@
+GSAP 3.15.1, ScrollTrigger and SplitText
+Copyright 2008-2026, GreenSock. All rights reserved.
+Subject to the standard GSAP license: https://gsap.com/standard-license
+Official package: https://www.npmjs.com/package/gsap
+
+The source package identifies its license as:
+Standard 'no charge' license: https://gsap.com/standard-license.

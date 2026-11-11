@@ -1,0 +1,59 @@
+:root {
+  --color-pastel: #f9e2e9;
+  --color-rose: #eab6c6;
+  --color-dusty: #eab6c6;
+  --color-wine: #6c253d;
+  --color-ivory: #fff8f5;
+  --color-gold: #c9a46b;
+  --color-ink: #3b202b;
+  --color-focus: #6c253d;
+  --color-white: #fff;
+  --color-action-hover: #52182c;
+  --color-disabled: #745e67;
+  --font-script: 'Great Vibes', 'Segoe Script', cursive;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Montserrat', system-ui, sans-serif;
+  --text-xs: clamp(.6875rem, .65rem + .15vw, .8125rem);
+  --text-sm: clamp(.8125rem, .77rem + .15vw, .9375rem);
+  --text-body: clamp(.9375rem, .9rem + .15vw, 1.0625rem);
+  --text-heading: clamp(2rem, 1.5rem + 2vw, 3.5rem);
+  --text-ceremonial: clamp(2.2rem, 1.5rem + 2vw, 3.6rem);
+  --text-name: clamp(3.75rem, 2.5rem + 4.5vw, 6.5rem);
+  --leading-body: 1.7;
+  --leading-heading: 1.1;
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-3: .75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+  --space-9: 6rem;
+  --radius-sm: .5rem;
+  --radius-card: 1.25rem;
+  --radius-pill: 999px;
+  --shadow-card: 0 1.5rem 4rem rgb(108 37 61 / 12%), 0 .25rem .75rem rgb(108 37 61 / 6%);
+  --shadow-button: 0 .3rem 1rem rgb(108 37 61 / 15%);
+  --border-fine: 1px solid rgb(201 164 107 / 45%);
+  --border-rose: 1px solid rgb(108 37 61 / 15%);
+  --gradient-page: radial-gradient(ellipse at 10% 10%, #fff8f5 0, transparent 45%), linear-gradient(135deg, #f9e2e9, #f3ccd8 65%, #fff8f5);
+  --gradient-wine: linear-gradient(115deg, #6c253d, #81344f 60%, #6c253d);
+  --gradient-hero: radial-gradient(ellipse at 30% 28%, #fff8f5 0, #f9e2e9 48%, #eab6c6 100%);
+  --content-max: 78rem;
+  --page-gutter: clamp(1rem, 4vw, 4rem);
+  /* CSS usa media queries literales: var no es válida en sus condiciones. */
+  --breakpoint-tablet: 48rem;
+  --breakpoint-desktop: 64rem;
+  --z-decoration: 0;
+  --z-content: 1;
+  --z-header: 10;
+  --z-navigation: 20;
+  --z-modal: 100;
+  --duration-fast: 180ms;
+  --duration-reveal: 700ms;
+  --ease-soft: cubic-bezier(.2, .7, .2, 1);
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { --duration-fast: 0ms; --duration-reveal: 0ms; }
+}

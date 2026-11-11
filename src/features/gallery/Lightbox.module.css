@@ -1,0 +1,9 @@
+.dialog { width: min(94vw, 52rem); max-height: 94svh; padding: 1rem; border: var(--border-fine); border-radius: var(--radius-card); background: var(--color-ivory); color: var(--color-ink); box-shadow: var(--shadow-card); }
+.dialog::backdrop { background: rgb(32 12 22 / 88%); }
+.bar { display: flex; align-items: center; justify-content: space-between; gap: .5rem; font-size: var(--text-sm); color: var(--color-wine); }
+.dialog button { width: 2.75rem; height: 2.75rem; border: var(--border-fine); border-radius: 50%; background: var(--color-ivory); color: var(--color-wine); display: grid; place-items: center; }
+.dialog button:hover { background: var(--color-pastel); }
+.figure { margin: .5rem 0; }
+.figure img { width: 100%; height: min(65svh, 48rem); object-fit: contain; }
+.figure figcaption { text-align: center; font-family: var(--font-display); font-size: 1.1rem; margin-top: .75rem; }
+.controls { display: flex; justify-content: center; gap: 1rem; }

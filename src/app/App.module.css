@@ -1,0 +1,7 @@
+.page { width: min(100%, var(--content-max)); margin: 0 auto; background: var(--color-ivory); box-shadow: var(--shadow-card); border: var(--border-rose); }
+.main { outline-offset: 5px; }
+.eventGrid { background: linear-gradient(110deg, #f9e2e9, #fff8f5 48%, #f9e2e9); border-top: var(--border-fine); }
+@media (min-width: 64rem) { .eventGrid { display: grid; grid-template-columns: 1fr 1fr; padding-inline: 1rem; } .eventGrid > section + section { border-left: var(--border-fine); } }
+.skip { position: fixed; top: 1rem; left: 1rem; z-index: var(--z-modal); padding: var(--space-3) var(--space-5); border-radius: var(--radius-sm); background: var(--color-ivory); color: var(--color-wine); transform: translateY(-200%); }
+.skip:focus { transform: translateY(0); }
+@media (min-width: 48rem) { .page { margin: clamp(1rem, 4vw, 3rem) auto; width: min(calc(100% - 2 * var(--page-gutter)), var(--content-max)); border-radius: var(--radius-card); } }

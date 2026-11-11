@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.npm-cache/
+.playwright-browsers/
+.audit-browser-profile/
+.publish/
+.tools/
+coverage/
+playwright-report/
+test-results/
+.env
+.env.*
+!.env.example
+*.local
+# Recursos originales privados: conservar localmente, no versionar ni publicar.
+referencias/

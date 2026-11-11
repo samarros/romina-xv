@@ -1,0 +1,40 @@
+.hero { isolation: isolate; position: relative; background: var(--gradient-hero); overflow: clip; }
+.background { position: absolute; inset: -1rem; z-index: -1; background: var(--gradient-hero); pointer-events: none; }
+.portrait { display: block; position: relative; width: 100%; height: clamp(22rem, 105vw, 32rem); overflow: hidden; }
+.portrait img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 10%; }
+.portrait::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 60%, rgb(249 226 233 / 20%) 75%, var(--color-pastel) 100%); }
+.copy { position: relative; z-index: var(--z-content); padding: 0 var(--space-5) var(--space-6); margin-top: -1rem; text-align: center; }
+.crown { width: 3.1rem; color: var(--color-gold); margin: 0 auto .25rem; }
+.occasion { font-family: var(--font-script); color: var(--color-wine); font-size: var(--text-ceremonial); line-height: 1.2; margin: 0 0 .65rem; }
+.name { margin: 0; color: var(--color-wine); font-family: var(--font-script); font-weight: 400; font-size: var(--text-name); line-height: 1.1; }
+.name > span { display: block; }
+.name > span + span { font-size: .77em; margin-top: .15rem; }
+.divider { width: min(15rem, 85%); margin: 1rem auto 1.1rem; color: var(--color-gold); }
+.invitation { font-family: var(--font-display); font-size: clamp(1.25rem, 1rem + .6vw, 1.625rem); font-weight: 500; line-height: 1.35; margin: 0 auto; max-width: 27rem; }
+.date { margin-top: var(--space-5); display: flex; align-items: center; flex-direction: column; gap: .25rem; }
+.dateLabel { font-size: var(--text-xs); text-transform: uppercase; letter-spacing: .18em; color: var(--color-wine); }
+.date time { font-family: var(--font-display); font-weight: 600; font-size: clamp(1.3rem, 1.1rem + .6vw, 1.75rem); }
+@media (min-width: 64rem) {
+  .hero { min-height: 34rem; display: flex; align-items: center; }
+  .portrait { position: absolute; inset: 0 0 0 auto; width: 49%; height: 100%; }
+  .portrait img { object-position: 50% 15%; }
+  .portrait::after { background: linear-gradient(to right, var(--color-pastel) 0%, rgb(249 226 233 / 50%) 8%, transparent 23%), linear-gradient(to top, rgb(108 37 61 / 15%), transparent 30%); }
+  .copy { width: 59%; padding: 2rem 2rem 1.5rem 3rem; margin: 0; }
+  .name { font-size: clamp(4rem, 6.5vw, 5.5rem); }
+  .occasion { font-size: clamp(2.5rem, 3vw, 3rem); }
+  .date { margin-top: 1.2rem; }
+}
+@media (min-width: 64rem) {
+  .copy { padding-left: 4rem; }
+}
+@media (max-width: 22rem) {
+  .copy { padding-inline: 1rem; }
+  .name { font-size: 3.5rem; }
+  .desktopBreak { display: none; }
+}
+@media (min-width: 48rem) and (max-width: 63.999rem) {
+  .portrait { height: 28rem; }
+  .copy { padding-top: var(--space-5); }
+}
+.continue { display: grid; place-items: center; width: 2.75rem; height: 2.75rem; margin: 1rem auto 0; border: var(--border-fine); border-radius: 50%; background: var(--color-ivory); color: var(--color-wine); }
+.continue:hover { background: var(--color-pastel); }

@@ -1,0 +1,13 @@
+/* Solo presentación; todos los selectores están dentro de la raíz de motion. */
+[data-motion-enabled='true'] a, [data-motion-enabled='true'] button { transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease; }
+@media (hover: hover) {
+  [data-motion-enabled='true'] a:hover, [data-motion-enabled='true'] button:hover { transform: translateY(-1px); }
+  [data-motion-enabled='true'] [data-animation='gallery-card'] button:hover { box-shadow: 0 .35rem 1rem rgb(108 37 61 / 18%); }
+  [data-motion-enabled='true'] article:hover { box-shadow: 0 .3rem 1rem rgb(108 37 61 / 8%); }
+}
+[data-motion-enabled='true'] article:focus-within { box-shadow: 0 .3rem 1rem rgb(108 37 61 / 8%); }
+[data-motion-enabled='true'] a:focus-visible, [data-motion-enabled='true'] button:focus-visible { box-shadow: 0 0 0 3px rgb(201 164 107 / 35%); }
+[data-motion-enabled='true'] #confirmar a[target='_blank'] { background-image: linear-gradient(110deg, transparent 20%, rgb(255 248 245 / 14%) 48%, transparent 75%), var(--gradient-wine); background-size: 220% 100%, 100% 100%; }
+[data-motion-enabled='true'] #confirmar a[target='_blank']:is(:hover, :focus-visible) { background-position: right center, center; transition: background-position 450ms ease, transform 180ms ease; }
+[data-motion-enabled='false'] *, [data-motion-enabled='false'] *::before, [data-motion-enabled='false'] *::after { animation: none !important; transition-duration: 0s !important; }
+html[data-motion-enabled='false'] { scroll-behavior: auto; }

@@ -1,0 +1,16 @@
+@font-face { font-family: 'Great Vibes'; src: url('../assets/fonts/great-vibes-latin.woff2') format('woff2'); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Cormorant Garamond'; src: url('../assets/fonts/cormorant-garamond-latin.woff2') format('woff2'); font-style: normal; font-weight: 400 700; font-display: swap; }
+@font-face { font-family: 'Montserrat'; src: url('../assets/fonts/montserrat-latin.woff2') format('woff2'); font-style: normal; font-weight: 400 700; font-display: swap; }
+* { box-sizing: border-box; }
+html { color-scheme: light; scroll-padding-top: 6rem; scroll-behavior: smooth; }
+section[id], footer[id] { scroll-margin-top: 1rem; }
+body { margin: 0; min-height: 100svh; display: flow-root; background: var(--gradient-page); background-repeat: no-repeat; color: var(--color-ink); font-family: var(--font-body); font-size: var(--text-body); line-height: var(--leading-body); }
+button, input { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+button { cursor: pointer; }
+a { color: inherit; text-underline-offset: .25em; }
+img, svg { display: block; }
+img { max-width: 100%; height: auto; }
+:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 5px; }
+::selection { color: var(--color-ivory); background: var(--color-wine); }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

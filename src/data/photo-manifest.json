@@ -1,0 +1,527 @@
+[
+  {
+    "id": 1,
+    "original": "1.jpeg",
+    "originalSha256": "b392691c36fb476a477dc4209f4893e5153e4ef3c26a915307a4c1a929dea93c",
+    "width": 886,
+    "height": 1400,
+    "variants": [
+      {
+        "file": "romina-1-360.webp",
+        "format": "webp",
+        "width": 360,
+        "height": 569,
+        "bytes": 50860,
+        "sha256": "0b1e0185938a1fa2d2188f16fed0e23450d2860a39e5e37ae8bc22aa4491f840"
+      },
+      {
+        "file": "romina-1-360.avif",
+        "format": "avif",
+        "width": 360,
+        "height": 569,
+        "bytes": 35420,
+        "sha256": "49b1a0e0c1fa84ba34f6923d91171eca01d43bcc80752be66d5cea6ef0aff3da"
+      },
+      {
+        "file": "romina-1-640.webp",
+        "format": "webp",
+        "width": 640,
+        "height": 1011,
+        "bytes": 127932,
+        "sha256": "b4ed205c6e1f0cbbe564146e355e7fa2d5e64c28329d46a5ad909cadd40909e2"
+      },
+      {
+        "file": "romina-1-640.avif",
+        "format": "avif",
+        "width": 640,
+        "height": 1011,
+        "bytes": 83407,
+        "sha256": "cba3cc4e6fea2b5f8017b4b9051a4e77bee18bb159ef6e5c766e64fdf6723318"
+      },
+      {
+        "file": "romina-1-886.webp",
+        "format": "webp",
+        "width": 886,
+        "height": 1400,
+        "bytes": 225950,
+        "sha256": "37c621a576c2eb43e9698595797ec4572a63b2d86f559702bfbae001f8eb69e2"
+      },
+      {
+        "file": "romina-1-886.avif",
+        "format": "avif",
+        "width": 886,
+        "height": 1400,
+        "bytes": 147885,
+        "sha256": "c13d38c73a06a3bbabecf83a995dc1b1dcf6f41e1df299efcd733c7cfad231f6"
+      },
+      {
+        "file": "romina-1-886.jpeg",
+        "format": "jpeg",
+        "width": 886,
+        "height": 1400,
+        "bytes": 368295,
+        "sha256": "0eb023b56998193a81dab7a0c57d66e20682046fce7e17fc5b8c86e4df45ead8"
+      },
+      {
+        "file": "romina-1-thumb.webp",
+        "format": "webp",
+        "width": 240,
+        "height": 379,
+        "bytes": 24712,
+        "sha256": "699ae0e51b9e24ab0bac0d9b1ac3d28234a11067516d9a6e955e41e7091afc9d"
+      }
+    ],
+    "fallback": "romina-1-886.jpeg",
+    "thumbnail": "romina-1-thumb.webp"
+  },
+  {
+    "id": 2,
+    "original": "2.jpeg",
+    "originalSha256": "34b9582a915e5bfc0ec053865a2551da00d580ffcae9fc7643426cd84c8f1aaa",
+    "width": 896,
+    "height": 1400,
+    "variants": [
+      {
+        "file": "romina-2-360.webp",
+        "format": "webp",
+        "width": 360,
+        "height": 563,
+        "bytes": 34780,
+        "sha256": "05f62a2a02a4f276dbe2b341c8954022fed15bf179f3b0e6cf82b97bbf82f1ed"
+      },
+      {
+        "file": "romina-2-360.avif",
+        "format": "avif",
+        "width": 360,
+        "height": 563,
+        "bytes": 23004,
+        "sha256": "c0954b1c089a9aac0df08f0a1a69e9a74899ca98417de4033230941a5d35d411"
+      },
+      {
+        "file": "romina-2-640.webp",
+        "format": "webp",
+        "width": 640,
+        "height": 1000,
+        "bytes": 98354,
+        "sha256": "d0011f94d905dee882389a6d976c9bdf691b3c20bc26c8e4daf80002c2612ed0"
+      },
+      {
+        "file": "romina-2-640.avif",
+        "format": "avif",
+        "width": 640,
+        "height": 1000,
+        "bytes": 63852,
+        "sha256": "a1944a96b12e5bbf87cb3d427c3af4cc3f36999fe1d12d05a1960fb4b2cde468"
+      },
+      {
+        "file": "romina-2-896.webp",
+        "format": "webp",
+        "width": 896,
+        "height": 1400,
+        "bytes": 210086,
+        "sha256": "ef86242889f2a4a342e0baf6415a9cdb4d305d50ddb4769a494b4faea40d8b0e"
+      },
+      {
+        "file": "romina-2-896.avif",
+        "format": "avif",
+        "width": 896,
+        "height": 1400,
+        "bytes": 143851,
+        "sha256": "f170da1f86dca9b075eb25af62677a7097f7264fcf8e50ac1c4f36de9d12e618"
+      },
+      {
+        "file": "romina-2-896.jpeg",
+        "format": "jpeg",
+        "width": 896,
+        "height": 1400,
+        "bytes": 337559,
+        "sha256": "b60072d136cab7f89deffad793f93c44410dc4aac1707b4b246a865e20552f3e"
+      },
+      {
+        "file": "romina-2-thumb.webp",
+        "format": "webp",
+        "width": 240,
+        "height": 375,
+        "bytes": 15036,
+        "sha256": "0763f5d1dd028b38a85e48b999df12c549f4cf0cdfd445e80c0d7ab5e409223b"
+      }
+    ],
+    "fallback": "romina-2-896.jpeg",
+    "thumbnail": "romina-2-thumb.webp"
+  },
+  {
+    "id": 3,
+    "original": "3.jpeg",
+    "originalSha256": "efb1b08dc0ac8e5441cae3544b29cb52746c6a8adcda76fd0baaedf1672709be",
+    "width": 933,
+    "height": 1400,
+    "variants": [
+      {
+        "file": "romina-3-360.webp",
+        "format": "webp",
+        "width": 360,
+        "height": 540,
+        "bytes": 31510,
+        "sha256": "5d9cd5e2a6a1f6fb1525f0a37bfc5f477f5fbbe0df1abc7402817fe014dab01b"
+      },
+      {
+        "file": "romina-3-360.avif",
+        "format": "avif",
+        "width": 360,
+        "height": 540,
+        "bytes": 21255,
+        "sha256": "fd944fb5dddfa01d76f0a530dec0a9d55c94bb6d544e7e22df2ba42d1cbefff5"
+      },
+      {
+        "file": "romina-3-640.webp",
+        "format": "webp",
+        "width": 640,
+        "height": 960,
+        "bytes": 86282,
+        "sha256": "720a5d130a6fa9a10a5793cd68097840db51e9aee5557041a18d3c3ef8b202c7"
+      },
+      {
+        "file": "romina-3-640.avif",
+        "format": "avif",
+        "width": 640,
+        "height": 960,
+        "bytes": 58014,
+        "sha256": "c5e02b5fca4fe78eeb4b4d6bbf8df941b0a9ee8939bbbd675ce9bc8bd946f81b"
+      },
+      {
+        "file": "romina-3-933.webp",
+        "format": "webp",
+        "width": 933,
+        "height": 1400,
+        "bytes": 189908,
+        "sha256": "068ca0c215ecdc1c20581ab41f549f7f34c9d3976a3d44aa89b4905d702f952e"
+      },
+      {
+        "file": "romina-3-933.avif",
+        "format": "avif",
+        "width": 933,
+        "height": 1400,
+        "bytes": 133615,
+        "sha256": "61c85e021e94043468c589dd22c0276e4066dab41424ddfb0b5a1f4dca85d580"
+      },
+      {
+        "file": "romina-3-933.jpeg",
+        "format": "jpeg",
+        "width": 933,
+        "height": 1400,
+        "bytes": 328861,
+        "sha256": "9ea827ef50156c5318ac9920ef9d620273d897898e4bf7e222646ba652357e90"
+      },
+      {
+        "file": "romina-3-thumb.webp",
+        "format": "webp",
+        "width": 240,
+        "height": 361,
+        "bytes": 14028,
+        "sha256": "d1e4af15ad8cd8d8dc4e268325164626bcb6a947fe559d015c6c837d77c1553c"
+      }
+    ],
+    "fallback": "romina-3-933.jpeg",
+    "thumbnail": "romina-3-thumb.webp"
+  },
+  {
+    "id": 4,
+    "original": "4.jpeg",
+    "originalSha256": "e3625a16abd9f35f6489e8c3dbf294bd504057b3a84fbdd14eb099060985363a",
+    "width": 933,
+    "height": 1400,
+    "variants": [
+      {
+        "file": "romina-4-360.webp",
+        "format": "webp",
+        "width": 360,
+        "height": 540,
+        "bytes": 31614,
+        "sha256": "e14790a3214d65607826ba56694e23404672594c431b0bc7a4a2599c8acd1c1f"
+      },
+      {
+        "file": "romina-4-360.avif",
+        "format": "avif",
+        "width": 360,
+        "height": 540,
+        "bytes": 22638,
+        "sha256": "1a85e7567660ccba0df31ce33ff0881fdd689e3a0ad9ac98710115930c908e6b"
+      },
+      {
+        "file": "romina-4-640.webp",
+        "format": "webp",
+        "width": 640,
+        "height": 960,
+        "bytes": 80356,
+        "sha256": "865446f03c3db1c8ec747442970f7a5bb55b5bb022d36850bf63b51cf5e808db"
+      },
+      {
+        "file": "romina-4-640.avif",
+        "format": "avif",
+        "width": 640,
+        "height": 960,
+        "bytes": 55763,
+        "sha256": "702f46876e86d794a104696b71044bbf9c52f32dad758bcbc98d8fb2c9a695a3"
+      },
+      {
+        "file": "romina-4-933.webp",
+        "format": "webp",
+        "width": 933,
+        "height": 1400,
+        "bytes": 154286,
+        "sha256": "554473521b764f1018e5b65133ff5491a4af62cae22ec0201bdb0df07684cc38"
+      },
+      {
+        "file": "romina-4-933.avif",
+        "format": "avif",
+        "width": 933,
+        "height": 1400,
+        "bytes": 114657,
+        "sha256": "0e2114af069f1dd007e73fe237a9c77e33503c5343feacfc186b940981488010"
+      },
+      {
+        "file": "romina-4-933.jpeg",
+        "format": "jpeg",
+        "width": 933,
+        "height": 1400,
+        "bytes": 285247,
+        "sha256": "0bb8279325b565de2f3330ef155d896d3e1c34e23ca1effe5758f75ccbfa3f2d"
+      },
+      {
+        "file": "romina-4-thumb.webp",
+        "format": "webp",
+        "width": 240,
+        "height": 361,
+        "bytes": 14740,
+        "sha256": "1718811e6c5402782433365bc9c6b18cb96d3fd3bad22f792f75e9d7d1dc993c"
+      }
+    ],
+    "fallback": "romina-4-933.jpeg",
+    "thumbnail": "romina-4-thumb.webp"
+  },
+  {
+    "id": 5,
+    "original": "5.jpeg",
+    "originalSha256": "28fa87c09d06d371ec792379701d4dadba1738977599bcd8596b1421b72c8597",
+    "width": 933,
+    "height": 1400,
+    "variants": [
+      {
+        "file": "romina-5-360.webp",
+        "format": "webp",
+        "width": 360,
+        "height": 540,
+        "bytes": 70836,
+        "sha256": "48efdeda05459a97709513462fdfdeb63bebd75d49c5218b0e7250be88375a8e"
+      },
+      {
+        "file": "romina-5-360.avif",
+        "format": "avif",
+        "width": 360,
+        "height": 540,
+        "bytes": 49819,
+        "sha256": "8725dd45826e6df9d142b5e8fcb2d49c29d4d19d332e1e13befd764746e7cd71"
+      },
+      {
+        "file": "romina-5-640.webp",
+        "format": "webp",
+        "width": 640,
+        "height": 960,
+        "bytes": 192806,
+        "sha256": "02720b4dd48367fa13e3b6bdfee9a971ccce22137878c920103a7ece722dd85c"
+      },
+      {
+        "file": "romina-5-640.avif",
+        "format": "avif",
+        "width": 640,
+        "height": 960,
+        "bytes": 124136,
+        "sha256": "b0cb5f8e687297b8320cfb1dd48ccb50ba99ab6288aa7ebe0f36a4a15e5e2ffc"
+      },
+      {
+        "file": "romina-5-933.webp",
+        "format": "webp",
+        "width": 933,
+        "height": 1400,
+        "bytes": 382844,
+        "sha256": "4938cf9549472b6f3377dc949f192268b433b13282a754e2d03fa634ad3c5e64"
+      },
+      {
+        "file": "romina-5-933.avif",
+        "format": "avif",
+        "width": 933,
+        "height": 1400,
+        "bytes": 245765,
+        "sha256": "aac2ad48768244d38f6ce172c50be34933643d8fe30a43ee47660ee62a0e364f"
+      },
+      {
+        "file": "romina-5-933.jpeg",
+        "format": "jpeg",
+        "width": 933,
+        "height": 1400,
+        "bytes": 509954,
+        "sha256": "f0dbf04d368700db5a2c88af353e7aebfc28fd00c348bb4d261deb112d9cf731"
+      },
+      {
+        "file": "romina-5-thumb.webp",
+        "format": "webp",
+        "width": 240,
+        "height": 361,
+        "bytes": 31000,
+        "sha256": "a688f2c618fd58aadbae194f883277f09eeb624bba57cbeba3dd123dce69616e"
+      }
+    ],
+    "fallback": "romina-5-933.jpeg",
+    "thumbnail": "romina-5-thumb.webp"
+  },
+  {
+    "id": 6,
+    "original": "6.jpeg",
+    "originalSha256": "8f4bc5631e149f77b6a73391c6b8f9bdab885b3b0c6af25df7143d47bf9155b8",
+    "width": 933,
+    "height": 1400,
+    "variants": [
+      {
+        "file": "romina-6-360.webp",
+        "format": "webp",
+        "width": 360,
+        "height": 540,
+        "bytes": 32824,
+        "sha256": "39aba04e7f4527e2e41edd704b804860ed4e8793320eadfcc3962ba6b44c1d91"
+      },
+      {
+        "file": "romina-6-360.avif",
+        "format": "avif",
+        "width": 360,
+        "height": 540,
+        "bytes": 21625,
+        "sha256": "587695d603d31cbd725f36d6f619a09eb8ec8abe5717b3d3e215135fe69446eb"
+      },
+      {
+        "file": "romina-6-640.webp",
+        "format": "webp",
+        "width": 640,
+        "height": 960,
+        "bytes": 76426,
+        "sha256": "c9ff81417a42ac0179affe7a6783a25e4caaf0201780c2667896615874ebae61"
+      },
+      {
+        "file": "romina-6-640.avif",
+        "format": "avif",
+        "width": 640,
+        "height": 960,
+        "bytes": 50203,
+        "sha256": "e04f363e223f490d67d147afd406a8ea95269d90661cf29af8ea3928b66fdda2"
+      },
+      {
+        "file": "romina-6-933.webp",
+        "format": "webp",
+        "width": 933,
+        "height": 1400,
+        "bytes": 153590,
+        "sha256": "fecab8fd8d222561f24223a16f7a581308be87c1dde485ab862f7df767e3a7a0"
+      },
+      {
+        "file": "romina-6-933.avif",
+        "format": "avif",
+        "width": 933,
+        "height": 1400,
+        "bytes": 103970,
+        "sha256": "62de72f24357a8e4117ce0062f61d6b4bf4932f61be2b6ae26ea2f0bd1687337"
+      },
+      {
+        "file": "romina-6-933.jpeg",
+        "format": "jpeg",
+        "width": 933,
+        "height": 1400,
+        "bytes": 294788,
+        "sha256": "3865d0c8de593b591722f810cec8afad3b6e03319afce013f39a08346de389ea"
+      },
+      {
+        "file": "romina-6-thumb.webp",
+        "format": "webp",
+        "width": 240,
+        "height": 361,
+        "bytes": 16020,
+        "sha256": "012c504d0c0f994df0f95526cb293f08b1cea87326caf439cb1cf0f2a61493c6"
+      }
+    ],
+    "fallback": "romina-6-933.jpeg",
+    "thumbnail": "romina-6-thumb.webp"
+  },
+  {
+    "id": 7,
+    "original": "7.jpeg",
+    "originalSha256": "41d54f784c92f2556c0f85be1709633782ba1ffefc5a0a08b3732f47da993202",
+    "width": 933,
+    "height": 1400,
+    "variants": [
+      {
+        "file": "romina-7-360.webp",
+        "format": "webp",
+        "width": 360,
+        "height": 540,
+        "bytes": 22258,
+        "sha256": "7f2929ac12c3bdd0e895761e27bb8d8ae1321f5d3155c98b01ff4743606fb38c"
+      },
+      {
+        "file": "romina-7-360.avif",
+        "format": "avif",
+        "width": 360,
+        "height": 540,
+        "bytes": 16053,
+        "sha256": "4fe43e216e59dadf358bfa011a0c01c53058e1de94fdee1791e3c60c3d6c6b83"
+      },
+      {
+        "file": "romina-7-640.webp",
+        "format": "webp",
+        "width": 640,
+        "height": 960,
+        "bytes": 49942,
+        "sha256": "633b3d28fa98db53987d734978cc08f0ef2d533b455c6ec8f92091a7fc89cdec"
+      },
+      {
+        "file": "romina-7-640.avif",
+        "format": "avif",
+        "width": 640,
+        "height": 960,
+        "bytes": 34831,
+        "sha256": "34cea7060da3e4bf6a0f053c5620073f19484152bb64af34dec2768123e9eb1b"
+      },
+      {
+        "file": "romina-7-933.webp",
+        "format": "webp",
+        "width": 933,
+        "height": 1400,
+        "bytes": 91468,
+        "sha256": "f95410388a98896c2b4a77c967f4485922aa3dc84e241fbde33a9b223831ea70"
+      },
+      {
+        "file": "romina-7-933.avif",
+        "format": "avif",
+        "width": 933,
+        "height": 1400,
+        "bytes": 65328,
+        "sha256": "e0c3b881502b180e486ed53fba53abaaa4bb9bbbf258d0496efd3c619103f012"
+      },
+      {
+        "file": "romina-7-933.jpeg",
+        "format": "jpeg",
+        "width": 933,
+        "height": 1400,
+        "bytes": 205123,
+        "sha256": "08021f583b3a4097faccc259a792eab12d04a96c40d51a0d9a157b27e855340a"
+      },
+      {
+        "file": "romina-7-thumb.webp",
+        "format": "webp",
+        "width": 240,
+        "height": 361,
+        "bytes": 11572,
+        "sha256": "f6a4b02002cc18628a8351b9b8baccbcc3153cced4f1370e5def02a0bdd77961"
+      }
+    ],
+    "fallback": "romina-7-933.jpeg",
+    "thumbnail": "romina-7-thumb.webp"
+  }
+]

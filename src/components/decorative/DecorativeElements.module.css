@@ -1,0 +1,17 @@
+.scene { position: absolute; inset: 0; pointer-events: none; z-index: var(--z-decoration); overflow: hidden; }
+.roses { position: absolute; width: clamp(8rem, 19vw, 16rem); left: -3rem; bottom: -4rem; transform: rotate(-12deg); opacity: .92; }
+.butterfly { position: absolute; width: 3.5rem; top: 35%; left: 7%; color: var(--color-gold); transform: rotate(-22deg); }
+.petal { position: absolute; width: 1rem; color: var(--color-rose); filter: drop-shadow(1px 2px 2px #fff8f5); }
+.petalOne { top: 8%; left: 9%; transform: rotate(35deg); }
+.petalTwo { bottom: 14%; left: 58%; transform: rotate(90deg); }
+.petalThree { top: 18%; right: 4%; transform: rotate(-40deg); color: var(--color-ivory); }
+.sparkle { position: absolute; width: .8rem; color: var(--color-gold); opacity: .65; }
+.sparkleOne { left: 12%; top: 20%; }
+.sparkleTwo { left: 54%; bottom: 9%; width: .5rem; }
+@media (max-width: 63.999rem) {
+  .roses { width: 7rem; left: -4rem; bottom: -2.3rem; }
+  .butterfly { top: auto; bottom: 15%; left: auto; right: 1rem; width: 2.6rem; }
+  .petalOne { top: 40%; left: 4%; }
+  .petalTwo { left: auto; right: 8%; bottom: 30%; }
+  .sparkleOne { top: 46%; left: 12%; }
+}

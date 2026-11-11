@@ -1,0 +1,8 @@
+.control { width: 2.75rem; height: 2.75rem; flex-shrink: 0; display: grid; place-items: center; border: 1px solid rgb(255 248 245 / 40%); border-radius: 50%; color: var(--color-ivory); background: transparent; }
+.control svg { width: 1rem; height: 1rem; }
+.control:hover, .control:focus-visible { background: rgb(255 248 245 / 12%); }
+.control:disabled { opacity: .6; cursor: default; }
+.particles { position: absolute; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; }
+.particle { position: absolute; display: block; width: .8rem; color: var(--color-rose); opacity: 0; pointer-events: none; }
+.particle svg { width: 100%; }
+.particle:nth-child(3n) { color: var(--color-gold); width: .45rem; }

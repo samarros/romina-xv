@@ -1,0 +1,63 @@
+[
+    {
+        "name":  "1.jpeg",
+        "bytes":  387625,
+        "sha256":  "b392691c36fb476a477dc4209f4893e5153e4ef3c26a915307a4c1a929dea93c",
+        "width":  886,
+        "height":  1400
+    },
+    {
+        "name":  "2.jpeg",
+        "bytes":  351787,
+        "sha256":  "34b9582a915e5bfc0ec053865a2551da00d580ffcae9fc7643426cd84c8f1aaa",
+        "width":  896,
+        "height":  1400
+    },
+    {
+        "name":  "3.jpeg",
+        "bytes":  341387,
+        "sha256":  "efb1b08dc0ac8e5441cae3544b29cb52746c6a8adcda76fd0baaedf1672709be",
+        "width":  933,
+        "height":  1400
+    },
+    {
+        "name":  "4.jpeg",
+        "bytes":  296479,
+        "sha256":  "e3625a16abd9f35f6489e8c3dbf294bd504057b3a84fbdd14eb099060985363a",
+        "width":  933,
+        "height":  1400
+    },
+    {
+        "name":  "5.jpeg",
+        "bytes":  541119,
+        "sha256":  "28fa87c09d06d371ec792379701d4dadba1738977599bcd8596b1421b72c8597",
+        "width":  933,
+        "height":  1400
+    },
+    {
+        "name":  "6.jpeg",
+        "bytes":  304785,
+        "sha256":  "8f4bc5631e149f77b6a73391c6b8f9bdab885b3b0c6af25df7143d47bf9155b8",
+        "width":  933,
+        "height":  1400
+    },
+    {
+        "name":  "7.jpeg",
+        "bytes":  212109,
+        "sha256":  "41d54f784c92f2556c0f85be1709633782ba1ffefc5a0a08b3732f47da993202",
+        "width":  933,
+        "height":  1400
+    },
+    {
+        "name":  "Propuesta.png",
+        "bytes":  2468116,
+        "sha256":  "6cab258e6368660da1292e205e7017eed1209dc7194e1f9c5a912b9a722eaf6a",
+        "width":  1672,
+        "height":  941
+    },
+    {
+        "name":  "thscientist.m4a",
+        "bytes":  4907506,
+        "sha256":  "6834e40a9c93e51ef8f2b768957f7c296ee3103e3f18a24f63620e31138dd00b"
+    }
+]

@@ -1,0 +1,4 @@
+.animation-lab { position: fixed; bottom: 1rem; left: 1rem; z-index: 200; max-width: calc(100vw - 2rem); max-height: 75svh; overflow: auto; padding: 1rem; background: #fff8f5; color: #3b202b; border: 1px solid #c9a46b; border-radius: .7rem; box-shadow: 0 .5rem 2rem #3b202b33; font: .8rem/1.5 system-ui; }
+.animation-lab p { margin: .25rem 0 .75rem; }
+.animation-lab label { display: flex; gap: .5rem; padding: .3rem 0; }
+.animation-lab button { margin-top: .75rem; min-height: 2.75rem; }

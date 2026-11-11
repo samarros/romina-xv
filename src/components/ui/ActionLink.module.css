@@ -1,0 +1,4 @@
+.link { display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2); min-height: 2.75rem; padding: .6rem 1.35rem; border: var(--border-fine); border-radius: var(--radius-pill); background: var(--gradient-wine); color: var(--color-ivory); text-decoration: none; font-size: var(--text-sm); font-weight: 600; line-height: 1.4; box-shadow: var(--shadow-button); transition: background-color var(--duration-fast) var(--ease-soft), box-shadow var(--duration-fast) var(--ease-soft); }
+.link:hover { background: var(--color-action-hover); box-shadow: 0 .3rem 1.2rem rgb(108 37 61 / 25%); }
+.link:active { box-shadow: none; }
+.link svg { width: 1.15rem; height: 1.15rem; flex-shrink: 0; }

@@ -1,0 +1,4 @@
+.heading { display: flex; align-items: center; justify-content: center; gap: .6rem; margin: 0 0 var(--space-5); color: var(--color-wine); font-family: var(--font-script); font-weight: 400; font-size: clamp(2rem, 3.8vw, 2.75rem); line-height: 1.25; text-align: center; }
+.heading > span[aria-hidden='true'] { flex: 0 1 3rem; height: .4rem; border-top: 1px solid var(--color-gold); border-radius: 50%; }
+.heading > [data-motion-title] { min-width: 0; }
+@media (max-width: 22rem) { .heading { font-size: 1.9rem; gap: .4rem; } .heading > span[aria-hidden='true'] { flex-basis: 1.2rem; } }
